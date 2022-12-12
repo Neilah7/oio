@@ -36,7 +36,7 @@ struct ContentView: View {
                 }
             }
             .listStyle(.plain)
-            .navigationTitle("Learners")
+            .navigationTitle("GitHUb")
             .onAppear{
                 fetechlearners()
             }
