@@ -44,6 +44,7 @@
 		AEBBA9A4294618C300589E3A /* oioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBBA9A8294618C300589E3A /* oioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oioUITests.swift; sourceTree = "<group>"; };
 		AEBBA9AA294618C300589E3A /* oioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEBBA9B7294618D300589E3A /* oio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = oio.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		AEBBA98C294618C100589E3A /* oio */ = {
 			isa = PBXGroup;
 			children = (
+				AEBBA9B7294618D300589E3A /* oio.entitlements */,
 				AEBBA98D294618C100589E3A /* oioApp.swift */,
 				AEBBA98F294618C100589E3A /* ContentView.swift */,
 				AEBBA991294618C300589E3A /* Assets.xcassets */,
@@ -414,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = oio/oio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"oio/Preview Content\"";
@@ -430,7 +433,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = twq.oio;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.oio.cloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = oio/oio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"oio/Preview Content\"";
@@ -459,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = twq.oio;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.oio.cloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
